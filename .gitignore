@@ -1,4 +1,5 @@
-
+# Ignore credentials.json file
+credentials.json
 # Playwright
 node_modules/
 /test-results/

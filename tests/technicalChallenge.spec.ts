@@ -24,5 +24,5 @@ test("Add product to cart", async({ page }) => {
 });
 test("Checkout", async({ page }) => {
   const cartPage = new CartPage(page);
-  await cartPage.goToCart(); // Navigate to the cart and initiate the checkout proce
+  await cartPage.goToCart(); // Navigate to the cart and initiate the checkout process
 });
