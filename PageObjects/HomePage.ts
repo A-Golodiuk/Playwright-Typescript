@@ -10,7 +10,7 @@ export class HomePage {
     }
 
     async openHomepage() {
-        await this.page.goto('https://magento.softwaretestingboard.com/', { waitUntil: 'domcontentloaded' });
+        await this.page.goto('/', { waitUntil: 'domcontentloaded' });
     }
 
     async HomePageText() {
